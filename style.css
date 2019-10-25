@@ -1,0 +1,206 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+.zemez-logo{
+     width: 10vw;
+    height: 115px;
+    margin-top: 5px;
+    margin-left: 10%;
+    max-width: 100%;
+    height: auto;
+
+}
+#top-header{
+    width: 100vw;
+    height: 50px;
+    background-color: orangered;
+        color: white;
+    display: flex;
+    font-weight: 600;
+    font-size: medium;
+    /* margin-left: 165px; */
+    /* border: 1px solid; */
+}
+#carouselExampleFade{
+    width: 100vw;
+}
+.btns{
+    
+    margin-left: 3%;
+        width: 60px;
+        /* padding-left: 26px; */
+        height: 50px;
+        width: 80px;
+        padding: 14px 12px;
+        /* padding-top: 10px; */
+        cursor: pointer;
+}
+.btns:hover{
+    background-color: #7cbcd6;
+}
+#iconzs{
+    margin-left: 280px;
+    padding-top: 10px;
+}
+.carousel-inner {
+    position: relative;
+    width: 80% !important;
+        left: 125px;
+        height: 400px;
+    overflow: hidden;
+}
+#second-top a{
+    margin-left: 25%;
+}
+
+#second-top{
+    width: 100vw;
+    height: 20px;
+    background-color: palegoldenrod;
+}
+
+    .carousel-control-prev {
+        left: 30px !important;
+    }
+    .carousel-control-next {
+        right: 45px !important;
+    }
+    .carousel-control-prev-icon,  .carousel-control-next-icon {
+        width: 50px !important;
+        height: 50px !important;
+        background-color: orangered !important;
+    }
+    .carousel {
+        position: relative;
+        top: 10px;
+        background-color: whitesmoke;
+    }
+    #main{
+        margin-top: 30px;
+    background-color: #c1c1c1;
+    width: 100vw;
+    height: 350px;
+    display: flex;
+    padding-top: 20px;
+    }
+    .card1,.card2,.card3{
+        position: relative;
+        /* display: -ms-flexbox; */
+        display: flex;
+        width: 15rem !important;
+        height: 15rem;
+        padding-top: 20px;
+        margin-left: 15px;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        /* min-width: 0; */
+        /* word-wrap: break-word; */
+        background-color: #fff;
+        /* background-clip: border-box; */
+        border: 1px solid rgba(0,0,0,.125);
+        border-radius: .25rem;
+    }
+    .card {
+        position: relative;
+        display: -ms-flexbox;
+        display: flex;
+        height: 15rem;
+        width: 15rem !important;
+        padding-top: 20px;
+        margin-left: 130px;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        min-width: 0;
+        word-wrap: break-word;
+        background-color: #fff;
+        background-clip: border-box;
+        border: 1px solid rgba(0,0,0,.125);
+        border-radius: .25rem;
+    }
+    .box1{
+        width: 245px;
+        margin-left: 182px;
+        height: 300px;
+        background-color: white;
+    }
+    .box2{
+        width: 245px;
+        margin-left: 467px;
+        height: 300px;
+        background-color: white;
+    }
+
+    .fas{
+        font-size: xx-large;
+        margin-left: 85px;
+        color: orangered;
+    
+    }
+    h4{
+        margin-left: 65px;
+    }
+    #ftr{
+        background-color: orangered;
+            color: white;
+        display: flex;
+        font-weight: 600;
+        font-size: medium;
+        width: 100vw;
+        height: 80px;
+     
+       
+    }
+    #ftr span{
+        margin-left: 10px;
+        /* width: 60px; */
+        cursor: pointer;
+    }
+    #content{
+        margin-left: 30%;
+        padding-top: 10px;
+         padding: 14px 12px;
+    }
+    #iconz{
+        margin-left: 100px;
+        padding-top: 10px;
+    }
+    #info{
+        font-size: small;
+        display: flex;
+        /* top: 0px; */
+        padding-top: 12px;
+        position: absolute;
+        right: 50px;
+
+      
+    }
+  @media screen and (max-width:980px) {
+    #carouselExampleFade{
+        display: none;
+      
+    }
+    #main{
+    height: 800px;
+    }
+    .card2,.card3{
+        display: none;
+    }
+    .card,.card1{
+        width:20rem !important ;
+        height:22rem !important;
+    }
+    .card{
+        margin-left: 22%;
+    }
+
+    .card1{
+        position: absolute;
+        top: 82%;
+        left: 20%;
+    }
+    #content{
+        display: none;
+    }
+  } 
